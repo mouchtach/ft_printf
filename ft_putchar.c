@@ -6,13 +6,13 @@
 /*   By: ymouchta <ymouchta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 17:02:13 by ymouchta          #+#    #+#             */
-/*   Updated: 2024/12/02 17:02:13 by ymouchta         ###   ########.fr       */
+/*   Updated: 2024/12/03 10:21:53 by ymouchta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void ft_putchar(char c, int *count)
+void	ft_putchar(char c, int *count)
 {
-    *count += write(1, &c, 1);  
+	*count += write(1, &c, 1);
 }

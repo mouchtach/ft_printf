@@ -6,7 +6,7 @@
 /*   By: ymouchta <ymouchta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 17:52:41 by ymouchta          #+#    #+#             */
-/*   Updated: 2024/12/02 17:52:41 by ymouchta         ###   ########.fr       */
+/*   Updated: 2024/12/03 10:24:20 by ymouchta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_putstr(char *s, int *count)
 	if (!s)
 	{
 		ft_putstr("(null)", count);
-		return;
+		return ;
 	}
 	while (s[i])
 	{
