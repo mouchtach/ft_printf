@@ -6,7 +6,7 @@
 /*   By: ymouchta <ymouchta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 16:47:54 by ymouchta          #+#    #+#             */
-/*   Updated: 2024/12/03 10:23:59 by ymouchta         ###   ########.fr       */
+/*   Updated: 2024/12/03 10:51:54 by ymouchta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,6 @@ int	ft_printf(const char *str, ...)
 	count = 0;
 	i = 0;
 	va_start(list, str);
-	if (!str)
-		return (count);
 	while (str[i])
 	{
 		if (str[i] == '%' && str[i + 1])
